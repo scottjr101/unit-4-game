@@ -9,8 +9,18 @@ var crystal3 = Math.floor(Math.random() * (12 - 1) + 1);
 var crystal4 = Math.floor(Math.random() * (12 - 1) + 1);
 
 $("#number-to-guess").text(randomNumber);
-$("#wins").text(win);
-$("#losses").text(lose);
+
+function reset() {
+    randomNumber = Math.floor(Math.random() * (120 - 19) + 19);
+    crystal1 = Math.floor(Math.random() * (12 - 1) + 1);
+    crystal2 = Math.floor(Math.random() * (12 - 1) + 1);
+    crystal3 = Math.floor(Math.random() * (12 - 1) + 1);
+    crystal4 = Math.floor(Math.random() * (12 - 1) + 1);
+    $("#number-to-guess").text(randomNumber);
+    $('#currentScore').text(counter);
+    counter = 0;
+    
+}
 
 var counter = 0;
 // Crystal 1
@@ -41,11 +51,13 @@ $(".image").on("click", function() {
   if (counter === randomNumber) {
     win++;
     $('#wins').text(win);
+    reset();
   }
 
   else if (counter >= randomNumber) {
     lose++;
     $('#losses').text(lose);
+    reset();
   }
 
 });

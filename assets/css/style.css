@@ -3,6 +3,14 @@
     height: 230px;
 }
 
+header {
+    margin: 10px 10px 0px 10px;
+}
+
+main {
+    margin: 0px 10px 0px 10px;
+}
+
 h1 {
     font-size: 20px;
     font-weight: bold;
@@ -14,3 +22,40 @@ h1 {
 body {
     background: url(../images/dark_embroidery.png)
 }
+
+#title {
+    font-size: 28px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    padding: 35px 0px 35px 0px;
+    text-align: center;
+    border: solid 2px white;
+}
+
+#instructions {
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    border: solid 2px white;
+}
+
+.guessContainer {
+    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    height: 200px;
+    width: 200px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+
+
+
+

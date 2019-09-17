@@ -8,8 +8,29 @@
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <h1><span id="number-to-guess"></span></h1>
+<header>
+    <p id="title">Crystals Collector: The Game!!</p>
+</header>
+<br>
+<main>
+    <p id="instructions">   
+         You will be given a random number at the start of the game.
+        <br><br>
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+        total score.
+        <br><br>
+        You win the game by matching your total score to random number, you lose the game if your total score
+        goes above the random number.
+        <br><br>
+        The value of each crystal is hidden from you until you click on it.
+        <br><br>
+        Each time when the game starts, the game will change to the values of each crystal.
+    </p>
+</main>
+<br>
+<div class="guessContainer">
+  <span id="number-to-guess"></span>
+</div>  
   <h1>Wins: <span id="wins"></span></h1>
   <h1>Losses: <span id="losses"></span></h1>
 

@@ -1,14 +1,10 @@
-.crystal-image {
-    width: 200px;
-    height: 230px;
-}
 
 header {
-    margin: 10px 10px 0px 10px;
+    margin: 15px 10px 0px 10px;
 }
 
 main {
-    margin: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 h1 {
@@ -36,7 +32,7 @@ body {
     font-size: 15px;
     font-family: 'Press Start 2P', cursive;
     color: white;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 15px 20px 15px;
     text-align: center;
     border: solid 2px white;
 }
@@ -53,9 +49,48 @@ body {
     color: white;
     font-size: 40px;
     margin-left: 10px;
+    overflow: hidden;
 }
 
+.winLossContainer {
+    border: solid 2px white;
+    height: 200px;
+    width: 250px;
+    float: right;
+    margin-right: 10px;
+}
 
+#crystalsContainer {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin: 0px 10px 0px 10px;
+}
 
+.crystal1 {
+    float: left;
+    margin: 0px 75px 0px 75px;
+}
 
+.crystal2 {
+    float: left;
+    margin: 0px 75px 0px 75px;
+}
 
+.crystal3 {
+    float: left;
+    margin: 0px 75px 0px 75px;
+}
+
+.crystal4 {
+    float: left;
+    margin: 0px 75px 0px 75px;
+}
+
+footer {
+    margin: 25px 10px 10px 10px;
+    border: solid 2px white;
+    padding: 10px 0px 10px 0px;
+}

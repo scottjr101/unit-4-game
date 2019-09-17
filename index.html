@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Crystals Collector Game</title>
   <!-- css -->
@@ -30,26 +30,32 @@
 <br>
 <div class="guessContainer">
   <span id="number-to-guess"></span>
-</div>  
-  <h1>Wins: <span id="wins"></span></h1>
-  <h1>Losses: <span id="losses"></span></h1>
+</div>
 
-  <div id="crystalsContainer">
-        <div type="button" class="image crystal1">
-            <img src="assets/images/redcrystal.png">
-        </div>
-        <div type="button" class="image crystal2">
-            <img src="assets/images/bluecrystal.png">
-        </div>
-        <div type="button" class="image crystal3">
-            <img src="assets/images/yellowcrystal.png">
-        </div>
-        <div type="button" class="image crystal4">
-            <img src="assets/images/greencrystal.png">
-        </div>
-  </div>
-  
+<div id="crystalsContainer">
+    <div type="button" class="image crystal1">
+        <img src="assets/images/redcrystal.png">
+    </div>
+    <div type="button" class="image crystal2">
+        <img src="assets/images/bluecrystal.png">
+    </div>
+    <div type="button" class="image crystal3">
+        <img src="assets/images/yellowcrystal.png">
+    </div>
+    <div type="button" class="image crystal4">
+        <img src="assets/images/greencrystal.png">
+    </div>
+</div>
+
+<div class="winLossContainer">
+    <h1>Wins: <span id="wins"></span></h1>
+    <br>
+    <h1>Losses: <span id="losses"></span></h1>
+</div>
+<div style="clear: both;"></div>
+<footer>
   <h1>Your Score: <span id="currentScore"></span></h1>
+</footer>
   <!-- jquery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- javascript -->
